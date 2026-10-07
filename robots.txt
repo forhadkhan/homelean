@@ -1,0 +1,13 @@
+# Pre-launch: keep search engines out. Link-preview bots stay allowed so shared links still show the Open Graph card.
+User-agent: facebookexternalhit
+User-agent: Facebot
+User-agent: Twitterbot
+User-agent: LinkedInBot
+User-agent: WhatsApp
+User-agent: Slackbot
+User-agent: Discordbot
+User-agent: TelegramBot
+Allow: /
+
+User-agent: *
+Disallow: /

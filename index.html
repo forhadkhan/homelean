@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Homelean – Home services you can book in a minute</title>
+  <meta name="description" content="Book vetted local pros for cleaning, plumbing, electrical, painting, repairs and garden care. Fixed prices, on-time arrival, 24/7 support.">
+  <meta name="theme-color" content="#0e2b22">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <!-- LAUNCH: scrapers ignore relative URLs. Once the domain is known, make og:image absolute and add <meta property="og:url"> (https://<domain>/). -->
+  <meta property="og:site_name" content="Homelean">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Homelean – Home services you can book in a minute">
+  <meta property="og:description" content="Vetted local pros for cleaning, plumbing, electrical, painting, repairs and garden care. Fixed prices, on-time arrival.">
+  <meta property="og:image" content="brand/og-1200x630.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The Homelean logo on a pale green background">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="brand/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="brand/apple-touch-icon-180.png">
+  <link rel="preload" href="assets/fonts/InstrumentSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Homelean home"><img src="brand/logo-reversed.svg" alt="Homelean" width="125" height="22"></a>
+
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="#top">Home</a>
+      <a href="#services">Services</a>
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+      <button class="btn btn-dark nav-cta" type="button" data-book>Order now</button>
+    </nav>
+
+    <button class="btn btn-dark head-cta" type="button" data-book>Order now</button>
+    <button class="menu-btn" type="button" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+      <svg class="i i-open" aria-hidden="true"><use href="assets/icons.svg#menu"/></svg>
+      <svg class="i i-close" aria-hidden="true"><use href="assets/icons.svg#x"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-bg" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+    <svg class="house-line" viewBox="0 0 600 300" fill="none" preserveAspectRatio="xMidYMax meet">
+      <path d="M20 290H580M60 290V150L300 20 540 150V290M240 290V200H360V290M130 190h60v50h-60zM410 190h60v50h-60z" />
+    </svg>
+  </div>
+
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <h1 id="hero-title">
+        <span class="ln"><span>Home services</span></span>
+        <span class="ln"><span>you can book</span></span>
+        <span class="ln"><span>in a minute.</span></span>
+      </h1>
+      <p class="lead">Cleaning, plumbing, electrical, painting, repairs and garden care from vetted local pros. Fixed prices and on-time arrival, every visit.</p>
+
+      <form class="search" id="searchForm" role="search" autocomplete="off">
+        <label class="sr" for="q">Search for a service</label>
+        <svg class="i" aria-hidden="true"><use href="assets/icons.svg#search"/></svg>
+        <input id="q" name="q" type="text" placeholder="Search for a service" role="combobox" aria-expanded="false" aria-controls="suggList" aria-autocomplete="list" enterkeyhint="search">
+        <ul class="sugg" id="suggList" role="listbox" aria-label="Matching services" hidden></ul>
+        <button class="btn btn-dark" type="submit">Find</button>
+      </form>
+      <p class="search-msg" id="searchMsg" role="status" aria-live="polite"></p>
+
+      <div class="rated">
+        <div class="faces" aria-hidden="true">
+          <img src="assets/img/a4.webp" alt="" width="40" height="40">
+          <img src="assets/img/a5.webp" alt="" width="40" height="40">
+          <img src="assets/img/a6.webp" alt="" width="40" height="40">
+          <img src="assets/img/a7.webp" alt="" width="40" height="40">
+        </div>
+        <p><span class="stars" aria-hidden="true"><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg></span> Rated <strong>4.9/5</strong> by our customers</p>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-label="Homelean professionals">
+      <svg class="spark s1" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C12.9 7 17 11.1 24 12 17 12.9 12.9 17 12 24 11.1 17 7 12.9 0 12 7 11.1 11.1 7 12 0Z"/></svg>
+      <svg class="spark s2" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C12.9 7 17 11.1 24 12 17 12.9 12.9 17 12 24 11.1 17 7 12.9 0 12 7 11.1 11.1 7 12 0Z"/></svg>
+      <svg class="spark s3" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C12.9 7 17 11.1 24 12 17 12.9 12.9 17 12 24 11.1 17 7 12.9 0 12 7 11.1 11.1 7 12 0Z"/></svg>
+
+      <div class="arches">
+        <figure class="arch a-left"><img src="assets/img/hero-cleaner.webp" alt="Smiling Homelean cleaner in a blue uniform" width="1000" height="1499" fetchpriority="high"></figure>
+        <figure class="arch a-mid"><img src="assets/img/hero-pro.webp" alt="Friendly Homelean technician in a branded polo" width="1000" height="1500" fetchpriority="high"></figure>
+        <figure class="arch a-right"><img src="assets/img/hero-plumber.webp" alt="Plumber in a hard hat holding a wrench" width="1000" height="667" fetchpriority="high"></figure>
+      </div>
+
+      <div class="chip chip-rate" data-float>
+        <img src="assets/img/a2.webp" alt="" width="40" height="40">
+        <div><strong>Amara Okoye</strong><span><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg> 4.9 · Deep cleaning</span></div>
+      </div>
+      <div class="chip chip-eta" data-float>
+        <span class="pulse" aria-hidden="true"></span>
+        <div><strong>Plumber on the way</strong><span>Arrives in 18 min</span></div>
+        <div class="eta-bar" aria-hidden="true"><i></i></div>
+      </div>
+      <div class="chip chip-top" data-float>
+        <img src="assets/img/a1.webp" alt="" width="40" height="40">
+        <div><strong>Mei Lin</strong><span><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg> 5.0</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="track">
+    <ul>
+      <li>Cleaning &amp; sanitising</li><li>Plumbing &amp; repairs</li><li>Electrical &amp; lighting</li><li>Painting &amp; renovation</li><li>Handyman services</li><li>Landscaping &amp; gardening</li>
+    </ul>
+    <ul>
+      <li>Cleaning &amp; sanitising</li><li>Plumbing &amp; repairs</li><li>Electrical &amp; lighting</li><li>Painting &amp; renovation</li><li>Handyman services</li><li>Landscaping &amp; gardening</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ TRUST / STATS ============ -->
+<section class="section trust" aria-labelledby="trust-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="trust-title">Trusted by thousands of homeowners.</h2>
+      <p>For years we've helped families take care of their homes by sending reliable, background-checked pros who make life easier. Our mission is to simplify home maintenance.</p>
+    </div>
+
+    <div class="bento">
+      <article class="tile t-butter t-wide">
+        <p class="num"><span data-count="15" data-suffix="k+">15k+</span></p>
+        <p class="lab">Homes served</p>
+        <p class="sub">Across multiple cities and neighbourhoods</p>
+        <svg class="deco deco-house" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path class="spark" d="M12 5.2v2.6M10.7 6.5h2.6"/><path class="spark s2" d="M17 11.4v1.6M16.2 12.2h1.6"/></svg>
+      </article>
+      <article class="tile t-blush">
+        <p class="num"><span data-count="95" data-suffix="%">95%</span></p>
+        <p class="lab">On-time service</p>
+        <p class="sub">We value your time and deliver as promised</p>
+        <svg class="deco deco-clock" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 3.6v1.4M12 19v1.4M3.6 12H5M19 12h1.4"/><path class="hour" d="M12 12V8"/><path class="minute" d="M12 12V6"/></svg>
+      </article>
+      <figure class="tile t-photo t-photo-a" data-rotate><img class="on" src="assets/img/joy.webp" alt="Cleaners and technicians at work in customers' homes" width="1000" height="563" loading="lazy"><img src="assets/img/work-01.webp" alt="" width="560" height="420" loading="lazy" aria-hidden="true"><img src="assets/img/work-02.webp" alt="" width="560" height="420" loading="lazy" aria-hidden="true"><img src="assets/img/work-03.webp" alt="" width="560" height="420" loading="lazy" aria-hidden="true"><img src="assets/img/work-04.webp" alt="" width="560" height="420" loading="lazy" aria-hidden="true"><img src="assets/img/work-05.webp" alt="" width="560" height="420" loading="lazy" aria-hidden="true"><img src="assets/img/work-06.webp" alt="" width="560" height="420" loading="lazy" aria-hidden="true"></figure>
+
+      <figure class="tile t-photo t-photo-b" data-rotate><img class="on" src="assets/img/plumbing.webp" alt="" width="1400" height="1101" loading="lazy" aria-hidden="true"><img src="assets/img/work-07.webp" alt="" width="560" height="420" loading="lazy" aria-hidden="true"><img src="assets/img/work-08.webp" alt="" width="560" height="420" loading="lazy" aria-hidden="true"><img src="assets/img/work-09.webp" alt="" width="560" height="420" loading="lazy" aria-hidden="true"><img src="assets/img/work-10.webp" alt="" width="560" height="420" loading="lazy" aria-hidden="true"><img src="assets/img/work-11.webp" alt="" width="560" height="420" loading="lazy" aria-hidden="true"><img src="assets/img/work-12.webp" alt="" width="560" height="420" loading="lazy" aria-hidden="true"></figure>
+      <article class="tile t-mint">
+        <p class="num"><span data-count="500" data-suffix="+">500+</span></p>
+        <p class="lab">Certified professionals</p>
+        <p class="sub">Skilled, trained and background-checked</p>
+        <svg class="deco deco-badge" viewBox="0 0 24 24" aria-hidden="true"><path class="badge" d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path class="check" pathLength="1" d="m16 9-5.5 5.5L8 12"/></svg>
+      </article>
+      <article class="tile t-sky t-wide">
+        <p class="num"><span data-count="4.9" data-decimals="1" data-suffix="/5">4.9/5</span></p>
+        <p class="lab">Customer rating</p>
+        <p class="sub">Based on thousands of verified reviews</p>
+        <div class="stars-row" aria-hidden="true">
+          <svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg>
+        </div>
+      <svg class="deco deco-thumb" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/><path d="M7 10v12"/></svg>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section services" id="services" aria-labelledby="svc-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="svc-title">Everything your home needs, in one place.</h2>
+      <p>Pick a service, choose a time, and a vetted pro is on their way. Prices are fixed up front, so there are no surprises.</p>
+    </div>
+
+    <div class="svc-grid" id="svcGrid">
+      <article class="svc" data-svc="cleaning" data-keys="clean cleaning sanitise sanitising deep home maid">
+        <span class="ico tint-butter"><svg class="i"><use href="assets/icons.svg#sparkles"/></svg></span>
+        <h3>Cleaning &amp; sanitising</h3>
+        <p>Regular upkeep, deep cleaning and sanitising to keep your home spotless.</p>
+        <p class="from">From <strong>$39</strong></p>
+        <button class="btn btn-soft" type="button" data-book="Cleaning &amp; sanitising">Get started</button>
+      </article>
+      <article class="svc" data-svc="plumbing" data-keys="plumb plumbing pipe leak tap drain bathroom water">
+        <span class="ico tint-blush"><svg class="i"><use href="assets/icons.svg#droplets"/></svg></span>
+        <h3>Plumbing &amp; repairs</h3>
+        <p>Fast leak fixes, pipe installations and bathroom repairs by certified experts.</p>
+        <p class="from">From <strong>$49</strong></p>
+        <button class="btn btn-soft" type="button" data-book="Plumbing &amp; repairs">Get started</button>
+      </article>
+      <article class="svc" data-svc="electrical" data-keys="electric electrical electrician wiring light lighting appliance socket">
+        <span class="ico tint-sky"><svg class="i"><use href="assets/icons.svg#zap"/></svg></span>
+        <h3>Electrical &amp; lighting</h3>
+        <p>Wiring, fixture installation and appliance setup to keep your home powered safely.</p>
+        <p class="from">From <strong>$55</strong></p>
+        <button class="btn btn-soft" type="button" data-book="Electrical &amp; lighting">Get started</button>
+      </article>
+      <article class="svc" data-svc="painting" data-keys="paint painting painter renovation wall interior exterior">
+        <span class="ico tint-lilac"><svg class="i"><use href="assets/icons.svg#paint-roller"/></svg></span>
+        <h3>Painting &amp; renovation</h3>
+        <p>Transform your space with professional interior and exterior painting.</p>
+        <p class="from">From <strong>$99</strong></p>
+        <button class="btn btn-soft" type="button" data-book="Painting &amp; renovation">Get started</button>
+      </article>
+      <article class="svc" data-svc="handyman" data-keys="handyman repair fix furniture assembly odd jobs mounting">
+        <span class="ico tint-mint"><svg class="i"><use href="assets/icons.svg#hammer"/></svg></span>
+        <h3>Handyman services</h3>
+        <p>Small repairs, furniture assembly and odd jobs, done quickly and reliably.</p>
+        <p class="from">From <strong>$35</strong></p>
+        <button class="btn btn-soft" type="button" data-book="Handyman services">Get started</button>
+      </article>
+      <article class="svc" data-svc="garden" data-keys="garden gardening landscape landscaping lawn mow outdoor">
+        <span class="ico tint-butter"><svg class="i"><use href="assets/icons.svg#trees"/></svg></span>
+        <h3>Landscaping &amp; gardening</h3>
+        <p>Lawn care, garden maintenance and landscape design for a beautiful outdoor space.</p>
+        <p class="from">From <strong>$45</strong></p>
+        <button class="btn btn-soft" type="button" data-book="Landscaping &amp; gardening">Get started</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="section how" id="how" aria-labelledby="how-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="how-title">Booked in three steps.</h2>
+      <p>No phone tag and no waiting around for a quote.</p>
+    </div>
+
+    <ol class="steps">
+      <svg class="steps-line" viewBox="0 0 1000 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20 C 120 -10, 220 50, 333 20 S 553 -10, 666 20 S 880 50, 1000 20" /></svg>
+      <li class="step">
+        <span class="step-ico tint-butter"><svg class="i"><use href="assets/icons.svg#search"/></svg></span>
+        <h3>Choose a service</h3>
+        <p>Tell us what needs doing. You'll see the price before you commit.</p>
+      </li>
+      <li class="step">
+        <span class="step-ico tint-sky"><svg class="i"><use href="assets/icons.svg#calendar-check"/></svg></span>
+        <h3>Pick a time</h3>
+        <p>Select a slot that suits you, including evenings and weekends.</p>
+      </li>
+      <li class="step">
+        <span class="step-ico tint-mint"><svg class="i"><use href="assets/icons.svg#thumbs-up"/></svg></span>
+        <h3>We handle the rest</h3>
+        <p>Your vetted pro arrives on time, finishes the job and you pay securely.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ REASONS (CAROUSEL) ============ -->
+<section class="section reasons" aria-labelledby="why-title">
+  <div class="wrap reasons-grid">
+    <div class="carousel" id="carousel" aria-roledescription="carousel" aria-label="Our work">
+      <div class="car-track" id="carTrack" tabindex="0">
+        <figure class="slide"><img src="assets/img/cleaning.webp" alt="Cleaner wiping a table in a bright home" width="1400" height="788" loading="lazy"><figcaption>Cleaning</figcaption></figure>
+        <figure class="slide"><img src="assets/img/plumbing.webp" alt="Plumber giving a thumbs up in a kitchen" width="1400" height="1101" loading="lazy"><figcaption>Plumbing</figcaption></figure>
+        <figure class="slide"><img src="assets/img/painting.webp" alt="Painter rolling yellow paint onto a wall" width="1400" height="934" loading="lazy"><figcaption>Painting</figcaption></figure>
+        <figure class="slide"><img src="assets/img/electrical.webp" alt="Electrician working on a fuse box" width="1400" height="788" loading="lazy"><figcaption>Electrical</figcaption></figure>
+        <figure class="slide"><img src="assets/img/handyman.webp" alt="Handyman smiling while planing wood" width="1400" height="934" loading="lazy"><figcaption>Handyman</figcaption></figure>
+        <figure class="slide"><img src="assets/img/landscaping.webp" alt="Garden crew mowing and trimming a lawn" width="1400" height="654" loading="lazy"><figcaption>Landscaping</figcaption></figure>
+      </div>
+      <button class="car-btn prev" type="button" aria-label="Previous photo"><svg class="i"><use href="assets/icons.svg#chevron-left"/></svg></button>
+      <button class="car-btn next" type="button" aria-label="Next photo"><svg class="i"><use href="assets/icons.svg#chevron-right"/></svg></button>
+      <div class="dots" id="dots" aria-hidden="true"></div>
+    </div>
+
+    <div class="why-card">
+      <h2 id="why-title">The reasons people count on us.</h2>
+      <p>We're more than a booking service. We're your companion for the daily upkeep that keeps a home running well.</p>
+      <ul class="checks">
+        <li><svg class="i"><use href="assets/icons.svg#check"/></svg>Verified and skilled professionals</li>
+        <li><svg class="i"><use href="assets/icons.svg#check"/></svg>Transparent pricing, no hidden costs</li>
+        <li><svg class="i"><use href="assets/icons.svg#check"/></svg>On-time service guarantee</li>
+        <li><svg class="i"><use href="assets/icons.svg#check"/></svg>24/7 customer support</li>
+      </ul>
+      <a class="btn btn-dark" href="#contact">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEAM ============ -->
+<!-- PLACEHOLDER: stock photos with sample names, team ratings and visit counts. Replace with real, consenting team members before launch. -->
+<section class="section team" id="team" aria-labelledby="team-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="team-title">Meet the pros who show up.</h2>
+      <p>Every pro is background-checked, trained and rated by customers after each visit. Meet the managers who lead each team.</p>
+    </div>
+    <ul class="pros" aria-label="Our teams and their managers">
+      <li class="pro pro-cleaning">
+        <div class="pro-ph"><img src="assets/img/hero-cleaner.webp" alt="Amara Okoye, manager of the cleaning team, smiling with her arms crossed" width="1000" height="1500" loading="lazy" style="object-position:50% 20%"></div>
+        <h3><span class="ico tint-butter"><svg class="i" aria-hidden="true"><use href="assets/icons.svg#sparkles"/></svg></span>Cleaning team</h3>
+        <p class="pro-mgr"><strong>Amara Okoye</strong><span>Team manager</span></p>
+        <p class="pro-meta"><span class="pro-rate"><svg class="i i-fill" aria-hidden="true"><use href="assets/icons.svg#star"/></svg> <strong>4.9</strong></span><span>640 visits</span></p>
+      </li>
+      <li class="pro pro-plumbing">
+        <div class="pro-ph"><img src="assets/img/hero-plumber.webp" alt="Daniel Reyes, manager of the plumbing team, holding a wrench" width="1000" height="667" loading="lazy" style="object-position:66% 35%"></div>
+        <h3><span class="ico tint-blush"><svg class="i" aria-hidden="true"><use href="assets/icons.svg#droplets"/></svg></span>Plumbing team</h3>
+        <p class="pro-mgr"><strong>Daniel Reyes</strong><span>Team manager</span></p>
+        <p class="pro-meta"><span class="pro-rate"><svg class="i i-fill" aria-hidden="true"><use href="assets/icons.svg#star"/></svg> <strong>4.8</strong></span><span>410 visits</span></p>
+      </li>
+      <li class="pro pro-electrical">
+        <div class="pro-ph"><img src="assets/img/hero-pro.webp" alt="Kenji Tran, manager of the electrical team, seated and smiling" width="1000" height="1500" loading="lazy" style="object-position:50% 25%"></div>
+        <h3><span class="ico tint-sky"><svg class="i" aria-hidden="true"><use href="assets/icons.svg#zap"/></svg></span>Electrical team</h3>
+        <p class="pro-mgr"><strong>Kenji Tran</strong><span>Team manager</span></p>
+        <p class="pro-meta"><span class="pro-rate"><svg class="i i-fill" aria-hidden="true"><use href="assets/icons.svg#star"/></svg> <strong>4.9</strong></span><span>330 visits</span></p>
+      </li>
+      <li class="pro pro-handyman">
+        <div class="pro-ph"><img src="assets/img/handyman.webp" alt="Marcus Bell, manager of the handyman team, smiling while working with wood" width="1400" height="934" loading="lazy" style="object-position:52% 30%"></div>
+        <h3><span class="ico tint-mint"><svg class="i" aria-hidden="true"><use href="assets/icons.svg#hammer"/></svg></span>Handyman team</h3>
+        <p class="pro-mgr"><strong>Marcus Bell</strong><span>Team manager</span></p>
+        <p class="pro-meta"><span class="pro-rate"><svg class="i i-fill" aria-hidden="true"><use href="assets/icons.svg#star"/></svg> <strong>4.9</strong></span><span>380 visits</span></p>
+      </li>
+    </ul>
+    <p class="team-cta"><button class="btn btn-dark" type="button" data-book>Book a service</button></p>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="section pricing" id="pricing" aria-labelledby="price-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="price-title">Simple pricing you can plan around.</h2>
+      <p>Pay per visit, or join a plan and let the small jobs take care of themselves.</p>
+    </div>
+
+    <div class="plans">
+      <article class="plan">
+        <h3>Single visit</h3>
+        <p class="plan-for">One job, when you need it.</p>
+        <p class="price"><strong>$39</strong><span>and up per visit</span></p>
+        <ul>
+          <li><svg class="i"><use href="assets/icons.svg#check"/></svg>Any of our six services</li>
+          <li><svg class="i"><use href="assets/icons.svg#check"/></svg>Fixed price shown before you book</li>
+          <li><svg class="i"><use href="assets/icons.svg#check"/></svg>Free reschedule up to 12 hours before</li>
+        </ul>
+        <button class="btn btn-soft" type="button" data-book>Book a visit</button>
+      </article>
+
+      <article class="plan plan-pop">
+        <p class="badge"><svg class="i"><use href="assets/icons.svg#sparkles"/></svg>Most popular</p>
+        <h3>Home care plan</h3>
+        <p class="plan-for">Monthly upkeep for a tidy, working home.</p>
+        <p class="price"><strong>$79</strong><span>per month</span></p>
+        <ul>
+          <li><svg class="i"><use href="assets/icons.svg#check"/></svg>One home clean and one repair visit a month</li>
+          <li><svg class="i"><use href="assets/icons.svg#check"/></svg>10% off every extra booking</li>
+          <li><svg class="i"><use href="assets/icons.svg#check"/></svg>Priority slots, including weekends</li>
+        </ul>
+        <button class="btn btn-light" type="button" data-book>Start this plan</button>
+      </article>
+
+      <article class="plan">
+        <h3>Whole home</h3>
+        <p class="plan-for">Everything looked after, year round.</p>
+        <p class="price"><strong>$149</strong><span>per month</span></p>
+        <ul>
+          <li><svg class="i"><use href="assets/icons.svg#check"/></svg>Weekly cleaning and monthly garden care</li>
+          <li><svg class="i"><use href="assets/icons.svg#check"/></svg>Quarterly safety and plumbing check</li>
+          <li><svg class="i"><use href="assets/icons.svg#check"/></svg>24/7 emergency call-outs</li>
+        </ul>
+        <button class="btn btn-soft" type="button" data-book>Start this plan</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section voices" id="testimonials" aria-labelledby="voices-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="voices-title">Loved by thousands of happy homeowners.</h2>
+      <p>Every day, families rely on us to handle their cleaning, repairs and home maintenance, and they keep choosing us again.</p>
+    </div>
+
+    <div class="voice-list">
+      <div class="voice" data-reviews data-tint="sky">
+        <figure class="rv on" data-tint="sky">
+          <blockquote><p>Quick, reliable and professional. I booked an AC repair online and within 30 minutes the technician had arrived, found the issue and fixed it right away.</p></blockquote>
+          <figcaption><img src="assets/img/a4.webp" alt="" width="44" height="44" loading="lazy"><span><strong>Daniel K.</strong><span class="stars-row sm" aria-label="5 out of 5 stars"><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg></span></span></figcaption>
+        </figure>
+        <figure class="rv" data-tint="butter">
+          <blockquote><p>Our power kept tripping and two other companies couldn't find why. The electrician traced it to a faulty breaker in under an hour and showed me the old part. Fair price, no upsell.</p></blockquote>
+          <figcaption><img src="assets/img/a7.webp" alt="" width="44" height="44" loading="lazy"><span><strong>Marcus T.</strong><span class="stars-row sm" aria-label="5 out of 5 stars"><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg></span></span></figcaption>
+        </figure>
+        <figure class="rv" data-tint="blush">
+          <blockquote><p>Booked a Saturday morning slot for a leaking tap and a few small jobs. One handyman did it all in a single visit, and the final price matched the quote to the cent.</p></blockquote>
+          <figcaption><span class="av" aria-hidden="true">TH</span><span><strong>Tom H.</strong><span class="stars-row sm" aria-label="5 out of 5 stars"><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg></span></span></figcaption>
+        </figure>
+      </div>
+      <div class="voice voice-mid" data-reviews data-tint="mint">
+        <figure class="rv on" data-tint="mint">
+          <blockquote><p>The cleaning team exceeded my expectations. They arrived on time, worked with attention to detail and left my entire home sparkling clean. It honestly feels like I'm living in a brand-new house.</p></blockquote>
+          <figcaption><img src="assets/img/a5.webp" alt="" width="44" height="44" loading="lazy"><span><strong>Sarah M.</strong><span class="stars-row sm" aria-label="5 out of 5 stars"><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg></span></span></figcaption>
+        </figure>
+        <figure class="rv" data-tint="lilac">
+          <blockquote><p>A pipe burst at 9pm and someone was at my door within the hour. Calm, tidy and honest about the cost. I've already saved the number for next time.</p></blockquote>
+          <figcaption><img src="assets/img/a2.webp" alt="" width="44" height="44" loading="lazy"><span><strong>Amara O.</strong><span class="stars-row sm" aria-label="5 out of 5 stars"><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg></span></span></figcaption>
+        </figure>
+        <figure class="rv" data-tint="sky">
+          <blockquote><p>They turned a patchy, overgrown garden into somewhere we actually sit now. The team cleared, trimmed and replanted in a day, and took every cutting away.</p></blockquote>
+          <figcaption><img src="assets/img/a8.webp" alt="" width="44" height="44" loading="lazy"><span><strong>Lena V.</strong><span class="stars-row sm" aria-label="5 out of 5 stars"><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg></span></span></figcaption>
+        </figure>
+      </div>
+      <div class="voice" data-reviews data-tint="butter">
+        <figure class="rv on" data-tint="butter">
+          <blockquote><p>What I appreciate most is the combination of affordable pricing and trustworthy professionals. They explained everything clearly and charged exactly what was promised.</p></blockquote>
+          <figcaption><img src="assets/img/a6.webp" alt="" width="44" height="44" loading="lazy"><span><strong>Priya S.</strong><span class="stars-row sm" aria-label="5 out of 5 stars"><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg></span></span></figcaption>
+        </figure>
+        <figure class="rv" data-tint="mint">
+          <blockquote><p>Two rooms repainted over a weekend with no drips and no mess. They covered the floors, moved the furniture back and the edges are razor sharp.</p></blockquote>
+          <figcaption><img src="assets/img/a1.webp" alt="" width="44" height="44" loading="lazy"><span><strong>Jenny W.</strong><span class="stars-row sm" aria-label="5 out of 5 stars"><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg></span></span></figcaption>
+        </figure>
+        <figure class="rv" data-tint="lilac">
+          <blockquote><p>I use the monthly plan for small fixes now. Shelves, a stuck door, a dead bulb. Same friendly pro each time, and booking takes a minute from my phone.</p></blockquote>
+          <figcaption><span class="av" aria-hidden="true">OF</span><span><strong>Omar F.</strong><span class="stars-row sm" aria-label="5 out of 5 stars"><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg><svg class="i i-fill"><use href="assets/icons.svg#star"/></svg></span></span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section faq" aria-labelledby="faq-title">
+  <div class="wrap faq-grid">
+    <div class="sec-head">
+      <h2 id="faq-title">Questions, answered.</h2>
+      <p>Still unsure? Message us and a real person will reply within the hour.</p>
+    </div>
+    <div class="faq-list">
+      <details name="faq" open>
+        <summary>How are your professionals vetted?<svg class="i"><use href="assets/icons.svg#chevron-down"/></svg></summary>
+        <div><p>Every pro passes an identity check, a background check and a skills assessment before their first job. We review ratings after each visit and remove anyone who falls below our standard.</p></div>
+      </details>
+      <details name="faq">
+        <summary>What if the job costs more than the quote?<svg class="i"><use href="assets/icons.svg#chevron-down"/></svg></summary>
+        <div><p>You'll never be charged more than the price you approved. If the pro finds extra work, they'll show you a new price first and you decide whether to go ahead.</p></div>
+      </details>
+      <details name="faq">
+        <summary>Can I reschedule or cancel?<svg class="i"><use href="assets/icons.svg#chevron-down"/></svg></summary>
+        <div><p>Yes. Reschedule or cancel for free up to 12 hours before your slot. After that, a small call-out fee may apply.</p></div>
+      </details>
+      <details name="faq">
+        <summary>Do you cover emergencies?<svg class="i"><use href="assets/icons.svg#chevron-down"/></svg></summary>
+        <div><p>Burst pipes and electrical faults are handled around the clock on the Whole home plan. On other plans, emergency call-outs are available at a priority rate.</p></div>
+      </details>
+      <details name="faq">
+        <summary>What happens if I'm not happy with the work?<svg class="i"><use href="assets/icons.svg#chevron-down"/></svg></summary>
+        <div><p>Tell us within 48 hours and we'll send someone back to put it right at no cost. If we can't fix it, you get a refund.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta-wrap" aria-labelledby="cta-title">
+  <div class="wrap">
+    <div class="cta">
+      <img class="cta-img" src="assets/img/home-interior.webp" alt="" width="1800" height="1013" loading="lazy">
+      <span class="cta-shine" aria-hidden="true"></span>
+      <svg class="spark c1" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C12.9 7 17 11.1 24 12 17 12.9 12.9 17 12 24 11.1 17 7 12.9 0 12 7 11.1 11.1 7 12 0Z"/></svg>
+      <svg class="spark c2" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C12.9 7 17 11.1 24 12 17 12.9 12.9 17 12 24 11.1 17 7 12.9 0 12 7 11.1 11.1 7 12 0Z"/></svg>
+      <svg class="spark c3" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C12.9 7 17 11.1 24 12 17 12.9 12.9 17 12 24 11.1 17 7 12.9 0 12 7 11.1 11.1 7 12 0Z"/></svg>
+      <div class="cta-body">
+        <h2 id="cta-title">Need help today? We're just a click away.</h2>
+        <p>Order now and experience home services the way they should be: fast, safe and simple.</p>
+        <button class="btn btn-dark" type="button" data-book>Book a service now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact" aria-labelledby="contact-title">
+  <div class="wrap contact-grid">
+    <div>
+      <h2 id="contact-title">Talk to a real person.</h2>
+      <p class="lead2">Questions about a job, a quote or a plan? We reply within the hour, every day of the week.</p>
+      <ul class="reach">
+        <li><span class="ico tint-sky"><svg class="i"><use href="assets/icons.svg#phone"/></svg></span><span><strong>Call us</strong><a href="tel:+10000000000">+1 (000) 000-0000</a></span></li>
+        <li><span class="ico tint-blush"><svg class="i"><use href="assets/icons.svg#mail"/></svg></span><span><strong>Email</strong><a href="mailto:hello@homelean.example">hello@homelean.example</a></span></li>
+        <li><span class="ico tint-mint"><svg class="i"><use href="assets/icons.svg#clock"/></svg></span><span><strong>Hours</strong><span>Support 24/7 · Visits 7am to 9pm</span></span></li>
+      </ul>
+    </div>
+
+    <div class="card-form" id="contactCard">
+      <form id="contactForm" novalidate>
+        <header class="cf-head">
+          <h3>Send us a message</h3>
+          <p>Takes a minute. We reply within the hour.</p>
+        </header>
+
+        <div class="cf-row">
+          <div class="field">
+            <label for="c-name">Your name</label>
+            <div class="control"><svg class="i lead-i" aria-hidden="true"><use href="assets/icons.svg#user"/></svg>
+              <input id="c-name" name="name" type="text" autocomplete="name" placeholder="Alex Morgan" maxlength="80" required aria-describedby="c-name-msg"></div>
+            <p class="msg" id="c-name-msg"></p>
+          </div>
+          <div class="field">
+            <label for="c-phone">Phone</label>
+            <div class="control"><svg class="i lead-i" aria-hidden="true"><use href="assets/icons.svg#phone"/></svg>
+              <input id="c-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+1 555 123 4567" maxlength="24" required aria-describedby="c-phone-msg"></div>
+            <p class="msg" id="c-phone-msg"></p>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="c-email">Email</label>
+          <div class="control"><svg class="i lead-i" aria-hidden="true"><use href="assets/icons.svg#mail"/></svg>
+            <input id="c-email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="you@example.com" maxlength="120" required aria-describedby="c-email-msg"></div>
+          <p class="msg" id="c-email-msg"></p>
+        </div>
+
+        <fieldset class="topics">
+          <legend>What is it about? <span class="opt">(optional)</span></legend>
+          <label><input type="radio" name="topic" value="Book a service"><span>Book a service</span></label>
+          <label><input type="radio" name="topic" value="Get a quote"><span>Get a quote</span></label>
+          <label><input type="radio" name="topic" value="Plans and pricing"><span>Plans and pricing</span></label>
+          <label><input type="radio" name="topic" value="Something else"><span>Something else</span></label>
+        </fieldset>
+
+        <div class="field">
+          <label for="c-msg">How can we help?</label>
+          <textarea id="c-msg" name="message" rows="4" maxlength="500" placeholder="Tell us what needs doing and when." required aria-describedby="c-msg-msg c-count"></textarea>
+          <div class="cf-foot"><p class="msg" id="c-msg-msg"></p><span class="count" id="c-count" aria-hidden="true">0/500</span></div>
+        </div>
+
+        <button class="btn btn-dark cf-send" type="submit"><span>Send message</span><svg class="i" aria-hidden="true"><use href="assets/icons.svg#send"/></svg></button>
+        <p class="cf-fine">We only use your details to reply to this message.</p>
+      </form>
+
+      <div class="cf-done" id="contactDone" hidden>
+        <span class="ico tint-mint"><svg class="i" aria-hidden="true"><use href="assets/icons.svg#circle-check"/></svg></span>
+        <h3 id="contactDoneTitle" tabindex="-1">Message sent</h3>
+        <p id="contactSummary"></p>
+        <button class="btn btn-soft" type="button" id="contactAgain">Send another message</button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap foot">
+    <div class="foot-brand">
+      <a class="brand" href="#top" aria-label="Homelean home"><img src="brand/logo-reversed.svg" alt="Homelean" width="125" height="22"></a>
+      <p>Vetted local pros for the jobs that keep a home running well.</p>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="#services">Services</a><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#testimonials">Testimonials</a><a href="#contact">Contact</a>
+    </nav>
+    <ul class="social" aria-label="Social media">
+      <li><a href="#" aria-label="Facebook"><svg class="i-brand"><use href="assets/icons.svg#b-facebook"/></svg></a></li>
+      <li><a href="#" aria-label="Instagram"><svg class="i-brand"><use href="assets/icons.svg#b-instagram"/></svg></a></li>
+      <li><a href="#" aria-label="X"><svg class="i-brand"><use href="assets/icons.svg#b-x"/></svg></a></li>
+      <li><a href="#" aria-label="YouTube"><svg class="i-brand"><use href="assets/icons.svg#b-youtube"/></svg></a></li>
+      <li><a href="#" aria-label="WhatsApp"><svg class="i-brand"><use href="assets/icons.svg#b-whatsapp"/></svg></a></li>
+    </ul>
+  </div>
+  <div class="wrap legal">
+    <p>© <span id="year">2026</span> Homelean. All rights reserved.</p>
+    <p>Photos from <a href="https://unsplash.com" rel="noopener">Unsplash</a>.</p>
+  </div>
+</footer>
+
+<!-- ============ BOOKING DIALOG ============ -->
+<dialog class="book" id="book" aria-labelledby="book-title">
+  <form method="dialog" class="book-form" id="bookForm" novalidate>
+    <header class="book-head">
+      <h2 id="book-title">Book a service</h2>
+      <button class="x" type="button" data-close aria-label="Close"><svg class="i"><use href="assets/icons.svg#x"/></svg></button>
+    </header>
+    <div class="book-body">
+      <div class="field"><label for="b-svc">Service</label>
+        <select id="b-svc" name="service" required>
+          <option value="">Choose a service</option>
+          <option>Cleaning &amp; sanitising</option><option>Plumbing &amp; repairs</option><option>Electrical &amp; lighting</option>
+          <option>Painting &amp; renovation</option><option>Handyman services</option><option>Landscaping &amp; gardening</option>
+        </select></div>
+      <div class="row2">
+        <div class="field"><label for="b-date">Date</label><input id="b-date" name="date" type="date" required></div>
+        <div class="field"><label for="b-time">Time</label>
+          <select id="b-time" name="time" required><option value="">Select</option><option>Morning (8–12)</option><option>Afternoon (12–4)</option><option>Evening (4–8)</option></select></div>
+      </div>
+      <div class="field"><label for="b-name">Full name</label><input id="b-name" name="name" type="text" autocomplete="name" required></div>
+      <div class="row2">
+        <div class="field"><label for="b-phone">Phone</label><input id="b-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
+        <div class="field"><label for="b-zip">Postcode</label><input id="b-zip" name="postcode" type="text" autocomplete="postal-code" required></div>
+      </div>
+      <div class="field"><label for="b-note">Anything we should know? <span class="opt">Optional</span></label><textarea id="b-note" name="notes" rows="2"></textarea></div>
+      <p class="form-note err" id="bookErr" role="alert"></p>
+    </div>
+    <footer class="book-foot"><button class="btn btn-dark btn-block" type="submit">Request booking</button></footer>
+  </form>
+  <div class="book-done" id="bookDone" hidden>
+    <svg class="done-mark" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="23"/><path d="M15 27l8 8 14-16"/></svg>
+    <h2>Request received</h2>
+    <p id="bookSummary"></p>
+    <button class="btn btn-dark" type="button" data-close>Done</button>
+  </div>
+</dialog>
+
+<script src="assets/vendor/gsap.min.js" defer></script>
+<script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
