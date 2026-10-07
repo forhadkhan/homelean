@@ -498,6 +498,7 @@ svg.deco{transition:opacity .4s}
 .footer{background:var(--ink);color:rgba(255,255,255,.82);padding-top:48px}
 .foot{display:grid;gap:28px;padding-bottom:32px}
 .foot-brand p{margin-top:12px;max-width:34ch;font-size:.95rem}
+.foot-brand .brand img{height:36px}
 .foot-nav{display:flex;flex-wrap:wrap;gap:6px 22px}
 .foot-nav a{text-decoration:none;padding:6px 0}
 .foot-nav a:hover{color:#fff;text-decoration:underline}
