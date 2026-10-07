@@ -1,0 +1,7 @@
+# Homelean brand
+
+**Idea:** the home inside the name. The icon is the lowercase h of the wordmark with its counter recut as a gabled doorway; the right leg stays full. The wordmark is "homelean" set in Outfit SemiBold (SIL OFL licence, `~/karkhana/library/fonts/outfit/License/OFL.txt`), outlined with the font's own spacing and kerning, so only the h is custom. "home" is ink, "lean" is accent green. The gable is too small to see below about 24 px, where the h reads as a plain h.
+**Clear space:** keep half the h's height free on every side of the logo and the icon. **Minimum size:** logo 120 px wide (30 mm in print); the icon alone 16 px, using `favicon.svg` below 48 px.
+**Colours:** ink green #0e2b22 ("home", icon), accent green #1f7a55 ("lean"), mint #d9f0e3 (icon plate), page #f6faf7 (light ground, reversed "home"), butter #fbefc4 (reversed "lean" only).
+**Files:** `logo.svg` light grounds; `logo-reversed.svg` on #0e2b22; `logo-mono.svg` one colour via currentColor (inline it to inherit text colour); `icon.svg` app and social icon; `favicon.svg` browser tab (the h warped onto a 32 grid so its edges land on whole pixels at 16 px); `icon-512.png` web manifest; `apple-touch-icon-180.png` iOS home screen (solid); `logo-1200.png` transparent raster; `og-1200x630.png` link previews.
+**Rebuild:** `source/build_logo.py` writes every file (run command in its docstring); the drawing lives in `candidates2/build_candidates.py`, candidate a (b and c are kept there as a record); never edit the outputs by hand.

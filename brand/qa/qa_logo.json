@@ -1,0 +1,9 @@
+[
+ {
+  "level": "GAP",
+  "file": "logo.svg",
+  "variant": "primary",
+  "check": "render",
+  "detail": "--no-render: size checks did not run"
+ }
+]
